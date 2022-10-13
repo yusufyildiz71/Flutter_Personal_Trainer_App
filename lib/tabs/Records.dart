@@ -1,7 +1,6 @@
 import 'package:anim_search_bar/anim_search_bar.dart';
 import 'package:fitness_flutter/components/Header.dart';
 import 'package:fitness_flutter/components/Section_vertical.dart';
-import 'package:fitness_flutter/components/tab_view_base.dart';
 import 'package:flutter/material.dart';
 
 import '../components/Section_horizantal.dart';
