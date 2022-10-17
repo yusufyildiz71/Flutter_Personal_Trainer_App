@@ -96,7 +96,7 @@ class Workout extends StatelessWidget {
               body: Container(
                 child: SingleChildScrollView(
                   child: SectionVertical(
-                    title: 'All Videos',
+                    title: 'Kategories',
                     horizontalList: this.generateList(context),
                   ),
                 ),

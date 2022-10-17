@@ -16,15 +16,15 @@ class ImageCardWithBasicFooter extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
-    double localWidth = size.width * 0.75;
+    double localWidth = size.width * 0.80;
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
         Hero(
           tag: this.tag,
           child: Container(
-            width: this.imageWidth != null ? this.imageWidth : localWidth,
-            height: 160.0,
+            width: localWidth,
+            height: 200.0,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.all(
                 Radius.circular(20.0),

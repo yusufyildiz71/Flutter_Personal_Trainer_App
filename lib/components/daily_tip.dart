@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class DailyTip extends StatelessWidget {
 
   final Map<String, String> element = {
-    'title': 'Fitness: Yeni Başlayanlar için Yol Haritası',
+    'title': 'Fitness: Yeni Başlayanlar için \n Yol Haritası',
     'subtitle': 'Fitness ve vücut geliştirme nedir, aralarındaki farklar nelerdir? Sporun faydaları nelerdir, neden yapmalısınız? Yeni başlayan biri için karmaşık görünen bazı sorulara yanıt vererek, emin adımlarla kas geliştirmeniz için size bu makalede bir yol haritası sunuyoruz.',
     'image': 'assets/images/yeni-baslayanlar.jpg',
   };
@@ -34,7 +34,7 @@ class DailyTip extends StatelessWidget {
         ),
         Text(
           this.element['title'],
-          style: TextStyle(fontSize: 14.0),
+          style: TextStyle(fontSize: 20.0),
         ),
         Container(
           width: width,

@@ -23,16 +23,16 @@ class Tabs extends StatelessWidget {
           padding: EdgeInsets.all(10),
           tabs: <Widget>[
             Tab(
-              icon: Icon(Icons.home, size: 26.0),
+              icon: Icon(Icons.home, size: 35.0),
             ),
             Tab(
-              icon: Icon(Icons.fitness_center, size: 26.0),
+              icon: Icon(Icons.fitness_center, size: 35.0),
             ),
             Tab(
-              icon: Icon(Icons.bookmark, size: 26.0),
+              icon: Icon(Icons.bookmark, size: 35.0),
             ),
             Tab(
-              icon: Icon(Icons.note_alt, size: 26.0),
+              icon: Icon(Icons.note_alt, size: 35.0),
             ),
           ],
           labelPadding: EdgeInsets.all(5.0),

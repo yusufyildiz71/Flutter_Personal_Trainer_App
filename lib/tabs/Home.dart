@@ -81,7 +81,7 @@ class Home extends StatelessWidget {
                   rightSide: Row(
                     children: [
                       UserPhoto(),
-                      Favorite(),
+                      //Favorite(),
                     ],
                   ),
                 ),

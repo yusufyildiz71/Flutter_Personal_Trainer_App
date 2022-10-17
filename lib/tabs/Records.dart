@@ -72,7 +72,7 @@ class Recorded extends StatelessWidget {
                 elevation: 0,
                 backgroundColor: Colors.white,
                 flexibleSpace: Header(
-                  'Recorded Videos',
+                  'Saved Workouts',
                   rightSide: Text("")
                 ),
               ),
