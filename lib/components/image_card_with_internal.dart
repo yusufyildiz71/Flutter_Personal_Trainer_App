@@ -52,6 +52,7 @@ class ImageCardWithInternal extends StatelessWidget {
       padding: EdgeInsets.all(20.0),
       margin: EdgeInsets.only(right: 15.0),
       decoration: BoxDecoration(
+        
         image: DecorationImage(
           image: AssetImage(this.image),
           fit: BoxFit.cover,

@@ -5,6 +5,7 @@ import 'package:fitness_flutter/components/header.dart';
 import 'package:fitness_flutter/components/image_card_with_basic_footer.dart';
 import 'package:fitness_flutter/components/image_card_with_internal.dart';
 import 'package:fitness_flutter/components/main_card_programs.dart';
+import 'package:fitness_flutter/components/slider_card.dart';
 import 'package:fitness_flutter/components/user_photo.dart';
 import 'package:fitness_flutter/components/user_tip.dart';
 import 'package:fitness_flutter/models/exercise.dart';
@@ -86,29 +87,34 @@ class Home extends StatelessWidget {
                   ),
                 ),
                 // MainCardPrograms(), // MainCard
-
-                SectionHorizantal(
+                
+                SliderCards(
                   title: 'Highlights (Öne Çıkanlar)',
-                  horizontalList: <Widget>[
-                    ImageCardWithInternal(
-                      image: 'assets/images/chest.jpg',
-                      title: 'Chest \nWorkout',
-                      duration: '7 min',
-                    ),
-                    ImageCardWithInternal(
-                      image: 'assets/images/shoulder.jpg',
-                      title: 'Shoulder \nWorkout',
-                      duration: '7 min',
-                    ),
-                    ImageCardWithInternal(
-                      image: 'assets/images/abs.jpg',
-                      title: 'ABS \nWorkout',
-                      duration: '7 min',
-                    ),
-                  ],
+                  
                 ),
+
+                // SectionHorizantal(
+                //   title: 'Highlights (Öne Çıkanlar)',
+                //   horizontalList: <Widget>[
+                //     ImageCardWithInternal(
+                //       image: 'assets/images/chest.jpg',
+                //       title: 'Chest \nWorkout',
+                //       duration: '7 min',
+                //     ),
+                //     ImageCardWithInternal(
+                //       image: 'assets/images/shoulder.jpg',
+                //       title: 'Shoulder \nWorkout',
+                //       duration: '7 min',
+                //     ),
+                //     ImageCardWithInternal(
+                //       image: 'assets/images/abs.jpg',
+                //       title: 'ABS \nWorkout',
+                //       duration: '7 min',
+                //     ),
+                //   ],
+                // ),
                 SectionHorizantal(
-                  title: 'Past Videos (Geçmiş videolar)',
+                  title: '   Past Videos (Geçmiş videolar)',
                   horizontalList: this.generateList(context),
                 ),
                 Container(
