@@ -4,7 +4,7 @@ import 'package:percent_indicator/circular_percent_indicator.dart';
 
 class ActivityTimer extends StatelessWidget {
   final String image =
-      'https://i0.wp.com/fitnessrunning.net/wp-content/uploads/2016/10/woman-doing-plank.jpg';
+      'https://www.mapfre.com.tr/blog/media/2022/01/fitness-nedir-1.jpg';
   final String tag = 'imageHeader';
 
   @override

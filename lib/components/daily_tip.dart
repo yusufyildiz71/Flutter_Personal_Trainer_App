@@ -1,3 +1,5 @@
+import 'package:fitness_flutter/pages/blog_detail.dart';
+import 'package:fitness_flutter/pages/onboard_screen.dart';
 import 'package:flutter/material.dart';
 
 class DailyTip extends StatelessWidget {
@@ -47,23 +49,29 @@ class DailyTip extends StatelessWidget {
             ),
           ),
         ),
-        Container(
-          margin: EdgeInsets.only(top: 10.0),
-          padding: EdgeInsets.symmetric(
-            vertical: 5.0,
-            horizontal: 15.0,
-          ),
-          child: Text(
-            'More',
-            style: TextStyle(
-              color: Colors.white,
+        InkWell(
+          onTap: () {
+             Navigator.push(context,
+                MaterialPageRoute(builder: (context) => BlogDetail( image:this.element['image'], title: this.element['title'], subtitle: this.element['subtitle'] ,)));
+          },
+          child: Container(
+            margin: EdgeInsets.only(top: 10.0),
+            padding: EdgeInsets.symmetric(
+              vertical: 5.0,
+              horizontal: 15.0,
             ),
-          ),
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.all(
-              Radius.circular(20.0),
+            child: Text(
+              'More',
+              style: TextStyle(
+                color: Colors.white,
+              ),
             ),
-            color:Color(0xffe95b0c),
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.all(
+                Radius.circular(20.0),
+              ),
+              color:Color(0xffe95b0c),
+            ),
           ),
         ),
       ],

@@ -1,3 +1,4 @@
+import 'package:fitness_flutter/pages/onboard_screen.dart';
 import 'package:fitness_flutter/tabs/tabs.dart';
 import 'package:flutter/material.dart';
 
@@ -9,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(fontFamily: 'Geometria'),
       home: Scaffold(
-        body: Tabs(),
+        body: OnboardPage(),
       ),
     );
   }
