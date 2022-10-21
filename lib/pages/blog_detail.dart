@@ -71,10 +71,17 @@ class BlogDetail extends StatelessWidget {
                         child: Container(
                           height: MediaQuery.of(context).size.height,
                           decoration: BoxDecoration(
+                              boxShadow: [
+                                const BoxShadow(
+                                  color: Colors.grey,
+                                  blurRadius: 10.0,
+                                  offset: Offset(2.0, 2.0),
+                                ),
+                              ],
                               color: Colors.grey.shade200,
                               borderRadius: BorderRadius.circular(11)),
                           child: Padding(
-                            padding: const EdgeInsets.all(8.0),
+                            padding: const EdgeInsets.all(15.0),
                             child: Text(
                               this.subtitle,
                               style: TextStyle(
