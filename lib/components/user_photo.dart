@@ -26,10 +26,10 @@ class UserPhoto extends StatelessWidget {
             offset: Offset(2.0, 2.0),
           ),
         ],
-        border: Border.all(
-          color: Colors.black,
-          width: 4.0,
-        ),
+        // border: Border.all(
+        //   color: Colors.black,
+        //   width: 4.0,
+        // ),
       ),
     );
   }

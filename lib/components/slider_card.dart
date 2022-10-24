@@ -16,7 +16,7 @@ class SliderCards extends StatelessWidget {
             height: 250,
             margin: EdgeInsets.only(top: 35.0),
             child: Padding(
-              padding: const EdgeInsets.all(10.0),
+              padding: const EdgeInsets.all(0.0),
               child: Container(
                 child: Column(
                   children: [
@@ -30,7 +30,7 @@ class SliderCards extends StatelessWidget {
                             duration: '7 min',
                           );
                         },
-                        autoplay: true,
+                        autoplay: false,
                         itemCount: 3,
                         itemWidth: 400.0,
                         itemHeight: 400.0,

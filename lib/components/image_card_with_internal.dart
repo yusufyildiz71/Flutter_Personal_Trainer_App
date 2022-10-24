@@ -58,7 +58,7 @@ class ImageCardWithInternal extends StatelessWidget {
           fit: BoxFit.cover,
         ),
         borderRadius: BorderRadius.all(
-          Radius.circular(15.0),
+          Radius.circular(0.0),
         ),
       ),
     );

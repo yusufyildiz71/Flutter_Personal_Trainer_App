@@ -13,6 +13,8 @@ import 'package:fitness_flutter/pages/activity_detail.dart';
 
 import 'package:flutter/material.dart';
 
+import '../profile.dart';
+
 class Home extends StatelessWidget {
   final List<Exercise> exercises = [
     Exercise(
@@ -81,16 +83,23 @@ class Home extends StatelessWidget {
                   'News',
                   rightSide: Row(
                     children: [
-                      UserPhoto(),
+                      InkWell(
+                        child: UserPhoto(),
+                        onTap: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => Profile()));
+                        },
+                      ),
                       //Favorite(),
                     ],
                   ),
                 ),
                 // MainCardPrograms(), // MainCard
-                
+
                 SliderCards(
-                  title: 'Highlights (Öne Çıkanlar)',
-                  
+                  title: 'Highlights',
                 ),
 
                 // SectionHorizantal(
@@ -114,7 +123,7 @@ class Home extends StatelessWidget {
                 //   ],
                 // ),
                 SectionHorizantal(
-                  title: '   Past Videos (Geçmiş videolar)',
+                  title: '   Past Videos',
                   horizontalList: this.generateList(context),
                 ),
                 Container(
@@ -126,7 +135,7 @@ class Home extends StatelessWidget {
                   child: Column(
                     children: <Widget>[
                       SectionHorizantal(
-                        title: 'Advices (Tavsiyeler)',
+                        title: 'Advices',
                         horizontalList: <Widget>[
                           DailyTip(),
                           DailyTip(),
