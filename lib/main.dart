@@ -1,5 +1,5 @@
 import 'package:fitness_flutter/pages/onboard_screen.dart';
-import 'package:fitness_flutter/tabs/tabs.dart';
+import 'package:fitness_flutter/pages/tabs/tabs.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());

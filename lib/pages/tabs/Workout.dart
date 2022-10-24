@@ -4,11 +4,11 @@ import 'package:fitness_flutter/components/Section_vertical.dart';
 
 import 'package:flutter/material.dart';
 
-import '../components/Section_horizantal.dart';
-import '../components/favorite.dart';
-import '../components/image_card_with_basic_footer.dart';
-import '../models/exercise.dart';
-import '../pages/activity_detail.dart';
+import '../../components/Section_horizantal.dart';
+import '../../components/favorite.dart';
+import '../../components/image_card_with_basic_footer.dart';
+import '../../models/exercise.dart';
+import '../activity_detail.dart';
 
 class Workout extends StatelessWidget {
   TextEditingController textController = TextEditingController();

@@ -3,12 +3,12 @@ import 'package:fitness_flutter/components/Header.dart';
 import 'package:fitness_flutter/components/Section_vertical.dart';
 import 'package:flutter/material.dart';
 
-import '../components/Section_horizantal.dart';
-import '../components/daily_tip.dart';
-import '../components/favorite.dart';
-import '../components/image_card_with_basic_footer.dart';
-import '../models/exercise.dart';
-import '../pages/activity_detail.dart';
+import '../../components/Section_horizantal.dart';
+import '../../components/daily_tip.dart';
+import '../../components/favorite.dart';
+import '../../components/image_card_with_basic_footer.dart';
+import '../../models/exercise.dart';
+import '../activity_detail.dart';
 
 class Advices extends StatelessWidget {
   @override

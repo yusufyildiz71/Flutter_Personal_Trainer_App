@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_onboard/flutter_onboard.dart';
 
-import '../tabs/tabs.dart';
+import 'tabs/tabs.dart';
 
 class OnboardPage extends StatefulWidget {
   const OnboardPage({key});

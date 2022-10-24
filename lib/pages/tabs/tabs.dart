@@ -1,8 +1,8 @@
-import 'package:fitness_flutter/tabs/Advice.dart';
+import 'package:fitness_flutter/pages/tabs/Advice.dart';
 import 'package:flutter/material.dart';
-import 'package:fitness_flutter/tabs/Workout.dart';
-import 'package:fitness_flutter/tabs/Home.dart';
-import 'package:fitness_flutter/tabs/Records.dart';
+import 'package:fitness_flutter/pages/tabs/Workout.dart';
+import 'package:fitness_flutter/pages/tabs/Home.dart';
+import 'package:fitness_flutter/pages/tabs/Records.dart';
 
 class Tabs extends StatelessWidget {
   @override
